@@ -7,6 +7,7 @@
         <title>Math Function</title>
     </head>
     <body>
+       
         
         <form action="math.jsp" method="post">
             <input type="number" placeholder="First number" name="number1" required><br>
