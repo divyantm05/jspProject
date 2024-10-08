@@ -7,8 +7,12 @@
         <title>Math Function</title>
     </head>
     <body>
-        <input type="number" placeholder="First number" required><br>
-        <input type="number" placeholder="Second number" required><br>
-       
+        
+        <form action="math.jsp" method="post">
+            <input type="number" placeholder="First number" name="number1" required><br>
+            <input type="number" placeholder="Second number" name="number2" required><br>
+            <input type="submit" value="calculate">
+        </form>
+        
     </body>
 </html>
